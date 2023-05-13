@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.ics499.demo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -46,7 +46,7 @@ import com.ics499.clothingstore.repository.UserRepository;
 @SpringBootTest(classes = ClothingstoreApplication.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @Transactional
-class ClothingstoreApplicationTests {
+class ClothingstoreDemo {
 
 	@Autowired
 	private UserRepository userRepository;
